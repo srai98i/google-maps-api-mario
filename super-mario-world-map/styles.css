@@ -9,9 +9,21 @@ html {
 
 body {
     margin: 0;
-    padding: 0
+    padding: 0;
+    background-color: #E52521;
+
+    color: whitesmoke
 }
 
 #map {
-height: 60vh
+height: 60vh;
+padding: 2rem;
+margin: 2rem;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem;
 }
