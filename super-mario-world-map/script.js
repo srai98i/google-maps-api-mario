@@ -3,7 +3,7 @@ let map;
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 34.66849839859227, lng: 135.43022693267773 },
-    zoom: 17.75,
+    zoom: 18,
     mapId: "55b583199afff4a5",
     mapTypeControl: false,
     fullscreenControl: false,
@@ -16,7 +16,7 @@ function initMap() {
     animation: google.maps.Animation.DROP,
     icon: {
       url: "./pics/yoshi_house.svg",
-      scaledSize: new google.maps.Size(38, 31),
+      scaledSize: new google.maps.Size(45, 45),
     },
   });
   const infowindowYoshi = new google.maps.InfoWindow({
@@ -36,7 +36,7 @@ function initMap() {
     animation: google.maps.Animation.DROP,
     icon: {
       url: "./pics/castle.svg",
-      scaledSize: new google.maps.Size(38, 31),
+      scaledSize: new google.maps.Size(45, 45),
     },
   });
   const infowindowCastle = new google.maps.InfoWindow({
@@ -56,7 +56,7 @@ function initMap() {
     animation: google.maps.Animation.DROP,
     icon: {
       url: "./pics/ghosthouse.svg",
-      scaledSize: new google.maps.Size(38, 31),
+      scaledSize: new google.maps.Size(45, 45),
     },
   });
   const infowindowGhostHouse = new google.maps.InfoWindow({
@@ -76,7 +76,7 @@ function initMap() {
     animation: google.maps.Animation.DROP,
     icon: {
       url: "./pics/star.svg",
-      scaledSize: new google.maps.Size(38, 31),
+      scaledSize: new google.maps.Size(45, 45),
     },
   });
   const infowindowStar = new google.maps.InfoWindow({
@@ -96,7 +96,7 @@ function initMap() {
     animation: google.maps.Animation.DROP,
     icon: {
       url: "./pics/hill_with_eyes.svg",
-      scaledSize: new google.maps.Size(38, 31),
+      scaledSize: new google.maps.Size(45, 45),
     },
   });
   const infowindowHill = new google.maps.InfoWindow({
@@ -116,11 +116,11 @@ function initMap() {
     animation: google.maps.Animation.DROP,
     icon: {
       url: "./pics/pipe.svg",
-      scaledSize: new google.maps.Size(38, 31),
+      scaledSize: new google.maps.Size(45, 45),
     },
   });
   const infowindowPipe = new google.maps.InfoWindow({
-    content: "The Pipe",
+    content: "Pipe",
   });
   markerPipe.addListener("click", () => {
     infowindowPipe.open({
@@ -132,15 +132,15 @@ function initMap() {
   const markerPointer = new google.maps.Marker({
     position: { lat: 34.669141714237185, lng: 135.43059871469018 },
     map: map,
-    title: "The Pointer",
+    title: "Pointer",
     animation: google.maps.Animation.DROP,
     icon: {
       url: "./pics/pointer.svg",
-      scaledSize: new google.maps.Size(38, 31),
+      scaledSize: new google.maps.Size(45, 45),
     },
   });
   const infowindowPointer = new google.maps.InfoWindow({
-    content: "The Pointer",
+    content: "Pointer",
   });
   markerPointer.addListener("click", () => {
     infowindowPointer.open({
