@@ -3,7 +3,8 @@
 
 This is a Super Mario map made using a Google Maps API Tutorial to learn more about using and implementing map APIs into projects. 
 
-![Map](/google-maps-api-mario/Super Mario World Map.png?raw=true)
+<img width="500px" alt="Super_Mario_World_Map" src="https://user-images.githubusercontent.com/103687714/188469871-3e18b73d-05bb-4ac4-b20d-fd7ccdba32f7.png">
+
 ## Lessons Learned
 
 This tutorial helped me understand:
